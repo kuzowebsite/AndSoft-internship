@@ -11,10 +11,10 @@ import { GlassCard } from '../components/GlassCard';
 const studentsData = [
   { 
     id: 1, 
-    name: "Б.Түвшинзаяа", 
-    role: "Flutter Developer", 
+    name: "Т.Түвшинзаяа", 
+    role: "Mobile Developer", 
     project: "Delivery App (Customer)",
-    school: "ШУТИС - МХТС", 
+    school: "ИИС", 
     // Эмэгтэй дүр төрх
     image: "https://api.dicebear.com/7.x/avataaars/svg?seed=Tuvshinzaya&top[]=longHair&accessoriesProb=0&clothing=collarAndSweater",
     bio: "Хэрэглэгчийн захиалга хийх үндсэн аппликейшн дээр ажиллаж байна. UI болон State Management хариуцдаг.",
@@ -23,33 +23,33 @@ const studentsData = [
   },
   { 
     id: 2, 
-    name: "Г.Дөлгөөн", 
-    role: "Backend & Mobile", 
+    name: "Х.Дөлгөөн", 
+    role: "Mobile Developer", 
     project: "Delivery App (Driver)",
-    school: "МУИС - ХШУИС", 
-    image: "https://api.dicebear.com/7.x/avataaars/svg?seed=Dulguun",
+    school: "ИИС", 
+    image: "https://api.dicebear.com/7.x/avataaars/",
     bio: "Жолоочийн аппликейшн болон байршил тогтоох (Geolocation) сервис дээр төвлөрч байна.",
     skills: ["Flutter", "Node.js", "PostgreSQL", "Google Maps API"],
     socials: { github: "#", linkedin: "#" }
   },
   { 
     id: 3, 
-    name: "А.Лувсандорж", 
+    name: "Н.Лувсандорж", 
     role: "Mobile Developer", 
     project: "Merchant App",
-    school: "Etugen University", 
-    image: "https://api.dicebear.com/7.x/avataaars/svg?seed=Luvsan",
+    school: "ИИС", 
+    image: "https://api.dicebear.com/7.x/avataaars/",
     bio: "Рестораны захиалга хүлээн авах, цэс удирдах аппликейшн хөгжүүлж байна.",
     skills: ["Flutter", "Rest API", "Provider", "Figma"],
     socials: { github: "#", linkedin: "#" }
   },
   { 
     id: 4, 
-    name: "С.Эрхмээ", 
-    role: "UI/UX & Mobile", 
-    project: "Design System",
-    school: "UFE", 
-    image: "https://api.dicebear.com/7.x/avataaars/svg?seed=Erkhe",
+    name: "Б.Эрхэмжаргал", 
+    role: "Mobile Developer", 
+    project: "Crypto data analys",
+    school: "ИИС", 
+    image: "https://api.dicebear.com/7.x/avataaars/",
     bio: "Бүх аппликейшний дизайны систем болон UI компонент сан (Widget Library) хөгжүүлж байна.",
     skills: ["Flutter", "Figma", "Adobe XD", "Animation"],
     socials: { github: "#", linkedin: "#" }
@@ -57,24 +57,12 @@ const studentsData = [
   { 
     id: 5, 
     name: "Ж.Болор", 
-    role: "Mobile Developer", 
-    project: "Admin App (Mobile)",
-    school: "Ider University", 
-    image: "https://api.dicebear.com/7.x/avataaars/svg?seed=Bolor",
+    role: "Website Developer", 
+    project: "Restaurant Menu",
+    school: "ШУТИС", 
+    image: "https://api.dicebear.com/7.x/avataaars/",
     bio: "Админ удирдлагын хэсгийг гар утсан дээр хянах боломжтой хувилбарыг хийж байна.",
     skills: ["Flutter", "Clean Arch", "Supabase", "Git"],
-    socials: { github: "#", linkedin: "#" }
-  },
-  // --- 6 дахь гишүүн (Эмэгтэй, Data) ---
-  { 
-    id: 6, 
-    name: "М.Ананд", 
-    role: "Data Analyst", 
-    project: "Analytics Dashboard (Web)",
-    school: "ШУТИС - КТМС", 
-    image: "https://api.dicebear.com/7.x/avataaars/svg?seed=Anand&top[]=longHair&accessoriesProb=10&clothing=blazerAndShirt",
-    bio: "Захиалгын датанд дүн шинжилгээ хийх Web Dashboard хөгжүүлж, тайлан боловсруулна.",
-    skills: ["React", "Python", "SQL", "PowerBI"],
     socials: { github: "#", linkedin: "#" }
   },
 ];
