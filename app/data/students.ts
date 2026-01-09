@@ -42,7 +42,7 @@ export const students = [
 
     { 
     id: 5, 
-    name: "Ж.Болор", 
+    name: "Б.Отгонзаяа", 
     role: "Website Developer", 
     school: "ШУТИС", 
     image: "https://api.dicebear.com/7.x/avataaars/svg?seed=Bolor",
@@ -51,3 +51,4 @@ export const students = [
     socials: { github: "#", linkedin: "#" }
   },
 ];
+
