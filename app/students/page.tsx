@@ -13,11 +13,11 @@ const studentsData = [
     id: 1, 
     name: "Т.Түвшинзаяа", 
     role: "Mobile Developer", 
-    project: "Delivery App (Customer)",
+    project: "Transportation services",
     school: "ИИС", 
     // Эмэгтэй дүр төрх
     image: "https://api.dicebear.com/7.x/avataaars/svg?seed=Tuvshinzaya&top[]=longHair&accessoriesProb=0&clothing=collarAndSweater",
-    bio: "Хэрэглэгчийн захиалга хийх үндсэн аппликейшн дээр ажиллаж байна. UI болон State Management хариуцдаг.",
+    bio: "",
     skills: ["Flutter", "Dart", "Bloc", "Firebase"],
     socials: { github: "#", linkedin: "#" }
   },
@@ -25,10 +25,10 @@ const studentsData = [
     id: 2, 
     name: "Х.Дөлгөөн", 
     role: "Mobile Developer", 
-    project: "Delivery App (Driver)",
+    project: "",
     school: "ИИС", 
     image: "https://api.dicebear.com/7.x/avataaars/",
-    bio: "Жолоочийн аппликейшн болон байршил тогтоох (Geolocation) сервис дээр төвлөрч байна.",
+    bio: "",
     skills: ["Flutter", "Node.js", "PostgreSQL", "Google Maps API"],
     socials: { github: "#", linkedin: "#" }
   },
@@ -36,10 +36,10 @@ const studentsData = [
     id: 3, 
     name: "Н.Лувсандорж", 
     role: "Mobile Developer", 
-    project: "Merchant App",
+    project: "",
     school: "ИИС", 
     image: "https://api.dicebear.com/7.x/avataaars/",
-    bio: "Рестораны захиалга хүлээн авах, цэс удирдах аппликейшн хөгжүүлж байна.",
+    bio: "",
     skills: ["Flutter", "Rest API", "Provider", "Figma"],
     socials: { github: "#", linkedin: "#" }
   },
@@ -56,12 +56,12 @@ const studentsData = [
   },
   { 
     id: 5, 
-    name: "Ж.Болор", 
+    name: "Б.Отгонзаяа", 
     role: "Website Developer", 
     project: "Restaurant Menu",
     school: "ШУТИС", 
     image: "https://api.dicebear.com/7.x/avataaars/",
-    bio: "Админ удирдлагын хэсгийг гар утсан дээр хянах боломжтой хувилбарыг хийж байна.",
+    bio: "Ухаалга рестораны захиалга хүлээн авах, цэс удирдах аппликейшн хөгжүүлж байна.",
     skills: ["Flutter", "Clean Arch", "Supabase", "Git"],
     socials: { github: "#", linkedin: "#" }
   },
@@ -293,3 +293,4 @@ export default function StudentsPage() {
     </div>
   );
 }
+
